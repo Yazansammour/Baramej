@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include baramej *.css
+recursive-include baramej *.csv
+recursive-include baramej *.html
+recursive-include baramej *.ico
+recursive-include baramej *.js
+recursive-include baramej *.json
+recursive-include baramej *.md
+recursive-include baramej *.png
+recursive-include baramej *.py
+recursive-include baramej *.svg
+recursive-include baramej *.txt
+recursive-exclude baramej *.pyc
