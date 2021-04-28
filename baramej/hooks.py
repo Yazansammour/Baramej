@@ -13,14 +13,16 @@ app_license = "MIT"
 
 # Includes in <head>
 # ------------------
-
+website_context = {
+	 "splash_image": "assets/baramej/images/erp-icon.png"
+}
 # include js, css files in header of desk.html
-# app_include_css = "/assets/baramej/css/baramej.css"
-# app_include_js = "/assets/baramej/js/baramej.js"
+app_include_css = "/assets/baramej/css/baramej.css"
+app_include_js = "/assets/baramej/js/baramej.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/baramej/css/baramej.css"
-# web_include_js = "/assets/baramej/js/baramej.js"
+web_include_css = "/assets/baramej/css/baramej.css"
+web_include_js = "/assets/baramej/js/baramej.js"
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "baramej/public/scss/website"
