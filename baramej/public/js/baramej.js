@@ -1,17 +1,17 @@
 $(document).bind('toolbar_setup', function() {
     $('.dropdown-help').hide();
     $("div.footer-powered a.text-muted").hide();
-    $('.navbar-home .erpnext-icon').hide();
     $('.footer-powered').hide();
-    $('.navbar-home .erpnext-icon').show().attr('src','assets/baramej/images/erp-icon.png');
+    $('.navbar-home').html('<img class="erpnext-icon" src="'+frappe.urllib.get_base_url()+'/assets/baramej/images/erp-icon.svg" />');
+    $('.splash').html('<img src="'+frappe.urllib.get_base_url()+'/assets/baramej/images/erp-icon.svg" />');
 });
 
 
 $(document).ready(function(){
     $('.dropdown-help').hide();
     $("div.footer-powered a.text-muted").hide();
-    $('.navbar-home .erpnext-icon').hide();
-    $('.navbar-home .erpnext-icon').show().attr('src','assets/baramej/images/erp-icon.png');
+    $('.navbar-home').html('<img class="erpnext-icon" src="'+frappe.urllib.get_base_url()+'/assets/baramej/images/erp-icon.svg" />');
+    $('.splash').html('<img src="'+frappe.urllib.get_base_url()+'/assets/baramej/images/erp-icon.svg" />');
     $('.form-footer').hide();
     $('.footer-powered').hide();
 });

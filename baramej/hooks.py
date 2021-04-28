@@ -14,7 +14,8 @@ app_license = "MIT"
 # Includes in <head>
 # ------------------
 website_context = {
-	 "splash_image": "assets/baramej/images/erp-icon.png"
+	"favicon": 	"/assets/baramej/images/erp-icon.svg",
+	"splash_image": "/assets/baramej/images/erp-icon.svg"
 }
 # include js, css files in header of desk.html
 app_include_css = "/assets/baramej/css/baramej.css"
