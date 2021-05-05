@@ -10,12 +10,13 @@ app_icon = "octicon octicon-file-directory"
 app_color = "grey"
 app_email = "shahzadnaser1122@gmail.com"
 app_license = "MIT"
+app_logo_url = "/assets/baramej/images/erp-icon.jpeg"
 
 # Includes in <head>
 # ------------------
 website_context = {
 	"favicon": 	"/assets/baramej/images/erp-icon.svg",
-	"splash_image": "/assets/baramej/images/erp-icon.svg"
+	"splash_image": "/assets/baramej/images/erp-icon.jpeg"
 }
 # include js, css files in header of desk.html
 app_include_css = "/assets/baramej/css/baramej.css"
