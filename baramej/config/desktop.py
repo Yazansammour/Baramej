@@ -5,7 +5,7 @@ from frappe import _
 def get_data():
 	return [
 		{
-			"module_name": "Baramej",
+			"module_name": "Baramej app",
 			"color": "grey",
 			"icon": "octicon octicon-file-directory",
 			"type": "module",
