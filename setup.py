@@ -8,7 +8,7 @@ with open('requirements.txt') as f:
 from baramej import __version__ as version
 
 setup(
-	name='baramej',
+	name='baramej app',
 	version=version,
 	description='Baramej App',
 	author='Shahzad Naser',
