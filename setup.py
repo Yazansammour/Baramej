@@ -10,7 +10,7 @@ from baramej import __version__ as version
 setup(
 	name='baramej',
 	version=version,
-	description='App for Yazan',
+	description='Baramej App',
 	author='Shahzad Naser',
 	author_email='shahzadnaser1122@gmail.com',
 	packages=find_packages(),
